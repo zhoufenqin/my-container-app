@@ -21,6 +21,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: fenzhoaca.azurecr.io
+          acrName: fenzhoaca
           containerAppName: fenzhoapp
           resourceGroup: fenzho-rg

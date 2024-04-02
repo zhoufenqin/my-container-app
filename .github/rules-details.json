@@ -1,0 +1,3688 @@
+[
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "Hardcoded IP Address",
+    "effort": 1,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "credential-migration",
+    "description": "AWS credential configuration",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      },
+      {
+        "title": "Quickstart: Azure Key Vault Secret client library for Java",
+        "url": "https://learn.microsoft.com/azure/key-vault/secrets/quick-create-java"
+      },
+      {
+        "title": "Azure Active Directory documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "region-configuration",
+    "description": "AWS region configuration",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure geographies",
+        "url": "https://azure.microsoft.com/explore/global-infrastructure/geographies"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "storage-migration",
+    "description": "AWS S3 usage found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Blob Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage/blobs"
+      },
+      {
+        "title": "Quickstart: Azure Blob Storage client library for Java",
+        "url": "https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-java"
+      },
+      {
+        "title": "Move your data from AWS S3 to Azure Storage using AzCopy",
+        "url": "https://azure.microsoft.com/blog/move-your-data-from-aws-s3-to-azure-storage-using-azcopy"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "storage-migration",
+    "description": "AWS S3 dependency usage found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Blob Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage/blobs"
+      },
+      {
+        "title": "Quickstart: Azure Blob Storage client library for Java",
+        "url": "https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-java"
+      },
+      {
+        "title": "Move your data from AWS S3 to Azure Storage using AzCopy",
+        "url": "https://azure.microsoft.com/blog/move-your-data-from-aws-s3-to-azure-storage-using-azcopy"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "storage-migration",
+    "description": "AWS S3 operations found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Blob Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage/blobs"
+      },
+      {
+        "title": "Quickstart: Azure Blob Storage client library for Java",
+        "url": "https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-java"
+      },
+      {
+        "title": "Move your data from AWS S3 to Azure Storage using AzCopy",
+        "url": "https://azure.microsoft.com/blog/move-your-data-from-aws-s3-to-azure-storage-using-azcopy"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Amazon Simple Queue Service Java 1.x SDK dependency",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Azure Service Bus libraries for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Amazon Simple Queue Service Java 1.x API",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Azure Service Bus libraries for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Amazon Simple Queue Service Java 2.x SDK dependency",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Azure Service Bus libraries for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Amazon Simple Queue Service Java 2.x API",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Azure Service Bus libraries for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Amazon Simple Queue Service configuration",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Azure Service Bus libraries for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "credential-migration",
+    "description": "AWS Secrets Manager configuration",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      },
+      {
+        "title": "Quickstart: Azure Key Vault Secret client library for Java",
+        "url": "https://learn.microsoft.com/azure/key-vault/secrets/quick-create-java"
+      },
+      {
+        "title": "Azure Key Vault CLI",
+        "url": "https://learn.microsoft.com/cli/azure/keyvault"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "cache-service-migration",
+    "description": "Redis Cache connection string found",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Connect Azure Cache for Redis to your application in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/services"
+      },
+      {
+        "title": "Create a service connection in Azure Container Apps from the Azure portal",
+        "url": "https://learn.microsoft.com/azure/service-connector/quickstart-portal-container-apps"
+      },
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Caching guidance",
+        "url": "https://learn.microsoft.com/azure/architecture/best-practices/caching"
+      },
+      {
+        "title": "Use Azure Cache for Redis in Java with Jedis Redis client",
+        "url": "https://learn.microsoft.com/azure/redis/java-get-started?tabs=entraid&pivots=azure-cache-redis"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "MongoDB connection found in configuration file",
+    "effort": 5,
+    "links": [
+      {
+        "title": "MongoDB connection string found in configuration file",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#databases"
+      },
+      {
+        "title": "Integrate Azure Cosmos DB for MongoDB with Service Connector",
+        "url": "https://learn.microsoft.com/azure/service-connector/how-to-integrate-cosmos-db"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      },
+      {
+        "title": "How to use Spring Data MongoDB API with Azure Cosmos DB",
+        "url": "https://docs.microsoft.com/azure/developer/java/spring-framework/configure-spring-data-mongodb-with-cosmos-db"
+      },
+      {
+        "title": "Spring Cloud Azure Starter Data Cosmos DB",
+        "url": "https://search.maven.org/artifact/com.azure.spring/spring-cloud-azure-starter-data-cosmos"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "java-version-upgrade",
+    "description": "Non-LTS Java version",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "java-version-upgrade",
+    "description": "Legacy Java version",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "local-credential",
+    "description": "Java KeyStore file found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "local-credential",
+    "description": "The application loads certificates into a KeyStore",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      },
+      {
+        "title": "Azure Key Vault JCA client library for Java",
+        "url": "https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/keyvault/azure-security-keyvault-jca/README.md"
+      },
+      {
+        "title": "Azure Key Vault Certificate client library for Java",
+        "url": "https://learn.microsoft.com/java/api/overview/azure/security-keyvault-certificates-readme"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Kafka connection string, username or password found in configuration file",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Spring Boot app to Kafka on Confluent Cloud",
+        "url": "https://learn.microsoft.com/azure/service-connector/tutorial-java-spring-confluent-kafka"
+      },
+      {
+        "title": "Apache Kafka on Confluent Cloud - Azure Native ISV Service Documentation",
+        "url": "https://learn.microsoft.com/azure/partner-solutions/apache-kafka-confluent-cloud"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "RabbitMQ connection string, username or password found in configuration file",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Service connection in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/service-connector/quickstart-portal-container-apps"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "ActiveMQ Artemis connection string, username or password found in configuration file",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Migrate existing Java Message Service applications from Apache ActiveMQ to Azure Service Bus",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging/migrate-jms-activemq-to-servicebus"
+      },
+      {
+        "title": "Service connection in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/service-connector/quickstart-portal-container-apps"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Spring RabbitMQ usage found in code",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Use Azure Service Bus in Spring applications",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/using-service-bus-in-spring-applications"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Spring AMQP dependency found",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Use Azure Service Bus in Spring applications",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/using-service-bus-in-spring-applications"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "Spring JMS RabbitMQ dependency found",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Use JMS in Spring to access Azure Service Bus",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-service-bus"
+      },
+      {
+        "title": "Use Azure Service Bus with JMS",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/spring-jms-support"
+      },
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Use Azure Service Bus in Spring applications",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/using-service-bus-in-spring-applications"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "messaging-service-migration",
+    "description": "ActiveMQ found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Spring Boot application using an Active MQ Broker",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#jms-message-brokers"
+      },
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging"
+      },
+      {
+        "title": "Migrate existing Java Message Service applications from Apache ActiveMQ to Azure Service Bus",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging/migrate-jms-activemq-to-servicebus"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "How to use the Spring Boot Starter for Azure Service Bus JMS",
+        "url": "https://docs.microsoft.com/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-service-bus"
+      },
+      {
+        "title": "Azure Spring Boot Starter for Azure Service Bus JMS",
+        "url": "https://search.maven.org/artifact/com.azure.spring/azure-spring-boot-starter-servicebus-jms"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "local-credential",
+    "description": "Password found in configuration file",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      },
+      {
+        "title": "Passwordless connections for Azure services",
+        "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview"
+      },
+      {
+        "title": "Password found in configuration file",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#inventory-configuration-sources-and-secrets"
+      },
+      {
+        "title": "Read a secret from Azure Key Vault in a Spring Boot application",
+        "url": "https://docs.microsoft.com/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-key-vault"
+      },
+      {
+        "title": "Azure Spring Boot Starter for Azure Key Vault Secrets",
+        "url": "https://search.maven.org/artifact/com.azure.spring/azure-spring-boot-starter-keyvault-secrets"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "configuration-management",
+    "description": "Environment variables/system properties",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Azure App Configuration documentation",
+        "url": "https://learn.microsoft.com/azure/azure-app-configuration"
+      },
+      {
+        "title": "Azure Key Vault documentation",
+        "url": "https://learn.microsoft.com/azure/key-vault"
+      },
+      {
+        "title": "Configure per-service secrets and externalized settings",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#configure-per-service-secrets-and-externalized-settings"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "service-binding",
+    "description": "Tanzu Application Service service bindings",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Java to Azure migration: resources configured through TAS",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#resources-configured-through-vmware-tanzu-application-service-tas-formerly-pivotal-cloud-foundry"
+      },
+      {
+        "title": "TAS (Cloud Foundry) environment variable: VCAP_SERVICES",
+        "url": "https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html#VCAP-SERVICES"
+      },
+      {
+        "title": "What is Service Connector",
+        "url": "https://learn.microsoft.com/azure/service-connector/overview"
+      },
+      {
+        "title": "Create a service connection in Azure Container Apps from the Azure portal",
+        "url": "https://learn.microsoft.com/azure/service-connector/quickstart-portal-container-apps"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks"
+    ],
+    "domain": "azure-readiness",
+    "category": "eap-migration",
+    "description": "Datasource driver found in configuration file",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Migrate JBoss EAP applications to JBoss EAP on Azure App Service - Datasources",
+        "url": "https://docs.microsoft.com/azure/developer/java/migration/migrate-jboss-eap-to-jboss-eap-on-azure-app-service#datasources"
+      },
+      {
+        "title": "Migrate JBoss EAP applications to JBoss EAP on Azure App Service - Set up data sources",
+        "url": "https://docs.microsoft.com/azure/developer/java/migration/migrate-jboss-eap-to-jboss-eap-on-azure-app-service#set-up-data-sources"
+      },
+      {
+        "title": "Datasource Management",
+        "url": "https://access.redhat.com/documentation/red_hat_jboss_enterprise_application_platform/7.4/html/configuration_guide/datasource_management"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice"
+    ],
+    "domain": "azure-readiness",
+    "category": "eap-migration",
+    "description": "Get started with JBoss EAP on App Service",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Get the Azure CLI",
+        "url": "https://aka.ms/azure-cli"
+      },
+      {
+        "title": "Configure a Java app for Azure App Service - Deploying your app",
+        "url": "https://aka.ms/webapps-deployment-apis"
+      },
+      {
+        "title": "Migrate JBoss EAP applications to JBoss EAP on Azure App Service",
+        "url": "https://aka.ms/webapps-jboss-migrate-guide"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "spring-migration",
+    "description": "Explicit Config Server connection info found in configuration file",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Migrate Spring Boot applications to Azure Container Apps - Remove restricted configurations",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#remove-restricted-configurations"
+      },
+      {
+        "title": "Connect to a managed Config Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/java-config-server?tabs=azure-cli"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "spring-migration",
+    "description": "Spring Cloud Config Server found",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Connect to a managed Config Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/java-config-server?tabs=azure-cli"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "spring-migration",
+    "description": "Embedded library - Spring Cloud Config",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Connect to a managed Config Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-config-server?tabs=azure-cli"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-aks",
+      "azure-appservice",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "spring-migration",
+    "description": "Explicit eureka connection info found in configuration file",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Migrate Spring Boot applications to Azure Container Apps - Remove restricted configurations",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#remove-restricted-configurations"
+      },
+      {
+        "title": "Connect to a managed Eureka Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/java-eureka-server?tabs=azure-cli"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "spring-migration",
+    "description": "Embedded framework - Eureka Client",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Connect to a managed Eureka Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server?tabs=azure-cli"
+      },
+      {
+        "title": "Create a highly available Eureka server component cluster in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server-highly-available"
+      },
+      {
+        "title": "Integrate Admin for Spring with Eureka Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-admin-eureka-integration"
+      },
+      {
+        "title": "Remove restricted configurations",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#remove-restricted-configurations"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "spring-migration",
+    "description": "Embedded framework - Eureka Server",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Connect to a managed Eureka Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server?tabs=azure-cli"
+      },
+      {
+        "title": "Create a highly available Eureka server component cluster in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-eureka-server-highly-available"
+      },
+      {
+        "title": "Integrate Admin for Spring with Eureka Server for Spring in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/java-admin-eureka-integration"
+      },
+      {
+        "title": "Remove restricted configurations",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#remove-restricted-configurations"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-aks",
+      "azure-appservice",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "spring-migration",
+    "description": "Server port configuration found",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Identify any clients relying on a non-standard port",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#identify-any-clients-relying-on-a-non-standard-port"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "scheduled-job-migration",
+    "description": "The application uses Quartz to scheduled jobs",
+    "effort": 7,
+    "links": [
+      {
+        "title": "The application uses Quartz to scheduled jobs",
+        "url": "https://docs.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-app-service#determine-whether-application-relies-on-scheduled-jobs"
+      },
+      {
+        "title": "Jobs in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/jobs"
+      },
+      {
+        "title": "Create a job with Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/jobs-get-started-cli"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "framework-upgrade",
+    "description": "Spring Boot version too low",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Spring Boot Supported Versions",
+        "url": "https://spring.io/projects/spring-boot/#support"
+      },
+      {
+        "title": "Spring Boot Support Policy",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Supported-Versions"
+      },
+      {
+        "title": "Use Rewrite to migrate to Spring Boot 2 from Spring Boot 1",
+        "url": "https://docs.openrewrite.org/running-recipes/popular-recipe-guides/spring-boot-2.x-migration-from-spring-boot-1.x"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "framework-upgrade",
+    "description": "Spring Boot version out of support",
+    "effort": 2,
+    "links": [
+      {
+        "title": "Spring Boot Supported Versions",
+        "url": "https://spring.io/projects/spring-boot/#support"
+      },
+      {
+        "title": "Spring Boot Support Policy",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Supported-Versions"
+      },
+      {
+        "title": "Use Rewrite to migrate to Spring Boot 3 from Spring Boot 2",
+        "url": "https://docs.openrewrite.org/running-recipes/popular-recipe-guides/migrate-to-spring-3"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "framework-upgrade",
+    "description": "Spring Boot version out of OSS support",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Migrate Spring Boot applications to Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps"
+      },
+      {
+        "title": "Launch your first Java microservice application with managed Java components in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/java-microservice-get-started?tabs=azure-cli"
+      },
+      {
+        "title": "Spring Boot Supported Versions",
+        "url": "https://spring.io/projects/spring-boot/#support"
+      },
+      {
+        "title": "Spring Boot Support Policy",
+        "url": "https://github.com/spring-projects/spring-boot/wiki/Supported-Versions"
+      },
+      {
+        "title": "Use Rewrite to migrate to Spring Boot 3 from Spring Boot 2",
+        "url": "https://docs.openrewrite.org/running-recipes/popular-recipe-guides/migrate-to-spring-3"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-aks",
+      "azure-appservice",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "framework-upgrade",
+    "description": "Spring Cloud version too low",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Migrate Spring Cloud applications to Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps"
+      },
+      {
+        "title": "Spring Cloud",
+        "url": "https://spring.io/projects/spring-cloud/"
+      },
+      {
+        "title": "Spring Cloud Supported Versions",
+        "url": "https://github.com/spring-cloud/spring-cloud-release/wiki/Supported-Versions"
+      },
+      {
+        "title": "Use Rewrite to migrate to Spring Cloud 2022",
+        "url": "https://docs.openrewrite.org/recipes/java/spring/cloud2022/upgradespringcloud_2022"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-aks",
+      "azure-appservice",
+      "azure-container-apps"
+    ],
+    "domain": "java-modernization",
+    "category": "framework-upgrade",
+    "description": "spring cloud version out of support",
+    "effort": 2,
+    "links": [
+      {
+        "title": "Migrate Spring Cloud applications to Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps"
+      },
+      {
+        "title": "Spring Cloud",
+        "url": "https://spring.io/projects/spring-cloud/"
+      },
+      {
+        "title": "Spring Cloud Supported Versions",
+        "url": "https://github.com/spring-cloud/spring-cloud-release/wiki/Supported-Versions"
+      },
+      {
+        "title": "Use Rewrite to migrate to Spring Cloud 2022",
+        "url": "https://docs.openrewrite.org/recipes/java/spring/cloud2022/upgradespringcloud_2022"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "MySQL database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Database for MySQL documentation",
+        "url": "https://learn.microsoft.com/azure/mysql"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "Backup and restore in Azure Database for MySQL",
+        "url": "https://learn.microsoft.com/azure/mysql/single-server/concepts-backup"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "PostgreSQL database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure PostgreSQL Flexible Server documentation",
+        "url": "https://learn.microsoft.com/azure/postgresql/flexible-server"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "Backup and restore in Azure Database for PostgreSQL",
+        "url": "https://learn.microsoft.com/azure/postgresql/single-server/concepts-backup"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "Microsoft SQL database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure SQL documentation",
+        "url": "https://learn.microsoft.com/azure/azure-sql"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "Change automated backup settings for Azure SQL Database",
+        "url": "https://learn.microsoft.com/azure/azure-sql/database/automated-backups-change-settings"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "Cassandra database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Managed Instance for Apache Cassandra documentation",
+        "url": "https://learn.microsoft.com/azure/managed-instance-apache-cassandra"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "MongoDB database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Cosmos DB for MongoDB documentation",
+        "url": "https://learn.microsoft.com/azure/cosmos-db/mongodb"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "database-migration",
+    "description": "MariaDB database found",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Database for MariaDB documentation",
+        "url": "https://learn.microsoft.com/azure/mariadb"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "Backup and restore in Azure Database for MariaDB",
+        "url": "https://learn.microsoft.com/azure/mariadb/howto-restore-server-portal"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "apm-migration",
+    "description": "Application Performance Management (APM) tool - New Relic",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Configure New Relic for Azure App Service",
+        "url": "https://learn.microsoft.com/azure/app-service/configure-language-java#configure-new-relic"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "apm-migration",
+    "description": "Application Performance Management (APM) tool - Elastic APM",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Deploy and manage Elastic on Azure",
+        "url": "https://www.elastic.co/blog/getting-started-with-the-azure-integration-enhancement"
+      },
+      {
+        "title": "Integrate Elastic APM on Azure",
+        "url": "https://www.elastic.co/docs/current/integrations/azure"
+      },
+      {
+        "title": "Microsoft Azure monitoring with Elastic Observability",
+        "url": "https://www.elastic.co/observability/azure-monitoring"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "apm-migration",
+    "description": "Application Performance Management (APM) tool - Dynatrace",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Monitor Azure App Service using Dynatrace OneAgent",
+        "url": "https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-cloud-platforms/microsoft-azure-services/azure-integrations/azure-appservice"
+      },
+      {
+        "title": "Monitor Azure Container Apps using Dynatrace OneAgent",
+        "url": "https://docs.dynatrace.com/docs/ingest-from/microsoft-azure-services/azure-integrations/azure-cloud-services-metrics/monitor-azure-container-app"
+      },
+      {
+        "title": "Deploy Dynatrace OneAgent on your Container Apps",
+        "url": "https://techcommunity.microsoft.com/blog/appsonazureblog/deploy-dynatrace-oneagent-on-your-container-apps/4395276"
+      },
+      {
+        "title": "Integrate Dynatrace on Azure",
+        "url": "https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-cloud-platforms/microsoft-azure-services/azure-integrations"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "credential-migration",
+    "description": "Embedded library - Spring Cloud Vault",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Load a secret from Azure Key Vault in a Spring Boot application",
+        "url": "https://learn.microsoft.com/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-key-vault"
+      },
+      {
+        "title": "Azure Key Vault",
+        "url": "https://learn.microsoft.com/azure/key-vault/general/overview"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "cloud-native",
+    "category": "spring-migration",
+    "description": "Embedded framework - Feign",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Migrate clients bypassing the service registry",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps"
+      },
+      {
+        "title": "Spring Cloud OpenFeign",
+        "url": "https://spring.io/projects/spring-cloud-openfeign/"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "auth-migration",
+    "description": "Embedded library - SAML",
+    "effort": 1,
+    "links": [
+      {
+        "title": "SAML authentication with Azure Active Directory",
+        "url": "https://learn.microsoft.com/azure/active-directory/fundamentals/auth-saml"
+      },
+      {
+        "title": "How the Microsoft identity platform uses the SAML protocol",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/saml-protocol-reference"
+      },
+      {
+        "title": "Microsoft identity platform documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop"
+      },
+      {
+        "title": "Azure Active Directory documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "auth-migration",
+    "description": "Embedded library - OpenSAML",
+    "effort": 1,
+    "links": [
+      {
+        "title": "SAML authentication with Azure Active Directory",
+        "url": "https://learn.microsoft.com/azure/active-directory/fundamentals/auth-saml"
+      },
+      {
+        "title": "How the Microsoft identity platform uses the SAML protocol",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/saml-protocol-reference"
+      },
+      {
+        "title": "Microsoft identity platform documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop"
+      },
+      {
+        "title": "Azure Active Directory documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "auth-migration",
+    "description": "Embedded framework - Spring Security",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Spring Security-related dependencies found in the project",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-app-service#identity-providers"
+      },
+      {
+        "title": "Azure Active Directory (Azure AD) identity provider for External Identities",
+        "url": "https://docs.microsoft.com/azure/active-directory/external-identities/azure-ad-account"
+      },
+      {
+        "title": "Spring Security",
+        "url": "https://docs.spring.io/spring-security/reference/index.html"
+      },
+      {
+        "title": "Spring Boot API: Authorization",
+        "url": "https://auth0.com/docs/quickstart/backend/java-spring-security5/01-authorization"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "auth-migration",
+    "description": "Embedded library - OAuth 2.0",
+    "effort": 1,
+    "links": [
+      {
+        "title": "OAuth 2.0 authentication with Azure Active Directory",
+        "url": "https://learn.microsoft.com/azure/active-directory/architecture/auth-oauth2"
+      },
+      {
+        "title": "OAuth 2.0 and OpenID Connect protocols on the Microsoft Identity Platform",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/v2-protocols"
+      },
+      {
+        "title": "Application types and OAuth2",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/v2-app-types"
+      },
+      {
+        "title": "Spring Cloud Security quickstart",
+        "url": "https://spring.io/projects/spring-cloud-security/"
+      },
+      {
+        "title": "Microsoft identity platform documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop"
+      },
+      {
+        "title": "Azure Active Directory documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "auth-migration",
+    "description": "Embedded library - OpenID",
+    "effort": 1,
+    "links": [
+      {
+        "title": "OpenID Connect authentication with Azure Active Directory",
+        "url": "https://learn.microsoft.com/azure/active-directory/architecture/auth-oidc"
+      },
+      {
+        "title": "OAuth 2.0 and OpenID Connect protocols on the Microsoft Identity Platform",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/v2-protocols"
+      },
+      {
+        "title": "OpenID Connect on the Microsoft identity platform",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop/v2-protocols-oidc"
+      },
+      {
+        "title": "Microsoft identity platform documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory/develop"
+      },
+      {
+        "title": "Azure Active Directory documentation",
+        "url": "https://learn.microsoft.com/azure/active-directory"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Data Source configurations",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Database for PostgreSQL documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/postgresql/"
+      },
+      {
+        "title": "Azure Database for MySQL documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/mysql/"
+      },
+      {
+        "title": "Azure SQL Database documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/"
+      },
+      {
+        "title": "Store credentials in Azure Key Vault",
+        "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview"
+      },
+      {
+        "title": "OpenLiberty DataSource configuration",
+        "url": "https://openliberty.io/docs/latest/data-persistence-jpa.html"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect EntityManager usage in application code",
+    "effort": 4,
+    "links": [
+      {
+        "title": "JPA and Hibernate on Azure",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-data-jpa-with-azure-sql-server"
+      },
+      {
+        "title": "HikariCP Connection Pool Configuration",
+        "url": "https://github.com/brettwooldridge/HikariCP#configuration-knobs-baby"
+      },
+      {
+        "title": "Azure SQL Database connectivity best practices",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/develop-overview"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Sybase Data Source configurations",
+    "effort": 6,
+    "links": [
+      {
+        "title": "Migration guide Sybase to Azure SQL Database",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/database/sybase-to-sql-database-guide"
+      },
+      {
+        "title": "SQL Server Migration Assistant for Sybase (SSMA)",
+        "url": "https://learn.microsoft.com/en-us/sql/ssma/sybase/sql-server-migration-assistant-for-sybase-sybasetosql"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure SQL Database documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect application-level data source references",
+    "effort": 4,
+    "links": [
+      {
+        "title": "Configure data sources in OpenLiberty",
+        "url": "https://openliberty.io/docs/latest/data-persistence-jpa.html"
+      },
+      {
+        "title": "Kubernetes ConfigMaps",
+        "url": "https://kubernetes.io/docs/concepts/configuration/configmap/"
+      },
+      {
+        "title": "Manage sensitive data with Secrets",
+        "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect Resource annotations for database injection",
+    "effort": 4,
+    "links": [
+      {
+        "title": "OpenLiberty database configuration",
+        "url": "https://openliberty.io/docs/latest/relational-database-connections-JDBC.html"
+      },
+      {
+        "title": "Azure SQL Database connection libraries",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-java"
+      },
+      {
+        "title": "Connection pooling best practices",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/develop-cplusplus-simple"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect persistence.xml configurations",
+    "effort": 4,
+    "links": [
+      {
+        "title": "JPA configuration for Azure SQL",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-data-jpa-with-azure-sql-server"
+      },
+      {
+        "title": "Hibernate performance tuning",
+        "url": "https://hibernate.org/orm/documentation/6.0/"
+      },
+      {
+        "title": "HikariCP configuration guide",
+        "url": "https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect JNDI lookup patterns for databases",
+    "effort": 4,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Oracle Data Source configurations",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Migration guide Oracle to Azure SQL Database",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-sql/migration-guides/database/oracle-to-sql-database-guide?view=azuresql"
+      },
+      {
+        "title": "Migrate Oracle to Azure Database for PostgreSQL",
+        "url": "https://learn.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online"
+      },
+      {
+        "title": "Oracle workloads on Azure Virtual Machines",
+        "url": "https://learn.microsoft.com/azure/virtual-machines/workloads/oracle/oracle-overview"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "SQL Server Migration Assistant for Oracle (SSMA)",
+        "url": "https://learn.microsoft.com/sql/ssma/oracle/sql-server-migration-assistant-for-oracle-oracletosql"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty PostgreSQL Data Source configurations",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure PostgreSQL Flexible Server documentation",
+        "url": "https://learn.microsoft.com/azure/postgresql/flexible-server"
+      },
+      {
+        "title": "Azure Database Migration Service documentation",
+        "url": "https://learn.microsoft.com/azure/dms"
+      },
+      {
+        "title": "Azure Monitor documentation",
+        "url": "https://learn.microsoft.com/azure/azure-monitor"
+      },
+      {
+        "title": "Microsoft Defender for Cloud",
+        "url": "https://learn.microsoft.com/azure/defender-for-cloud"
+      },
+      {
+        "title": "Backup and restore in Azure Database for PostgreSQL",
+        "url": "https://learn.microsoft.com/azure/postgresql/single-server/concepts-backup"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Server File Path Configurations",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Files documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/storage/files/"
+      },
+      {
+        "title": "Azure Managed Disks",
+        "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview"
+      },
+      {
+        "title": "Azure Blob Storage from Java",
+        "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-java"
+      },
+      {
+        "title": "Container storage best practices",
+        "url": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-volume-azure-files"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect Web.xml File Path Environment Entries",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Key Vault for configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview"
+      },
+      {
+        "title": "Environment variable configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/app-service/configure-common#configure-app-settings"
+      },
+      {
+        "title": "Azure storage account configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect File Path Resource Injections",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Blob Storage SDK for Java",
+        "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-java"
+      },
+      {
+        "title": "Azure Identity SDK for authentication",
+        "url": "https://learn.microsoft.com/en-us/java/api/overview/azure/identity-readme"
+      },
+      {
+        "title": "Environment variable configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/app-service/configure-common#configure-app-settings"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect ServletContext Path Usage",
+    "effort": 3,
+    "links": [
+      {
+        "title": "ServletContext resource methods",
+        "url": "https://docs.oracle.com/javaee/7/api/javax/servlet/ServletContext.html"
+      },
+      {
+        "title": "Azure Blob Storage operations",
+        "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-java-get-started"
+      },
+      {
+        "title": "Java NIO file operations",
+        "url": "https://docs.oracle.com/javase/tutorial/essential/io/fileio.html"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty JMS ConnectionFactory configurations",
+    "effort": 4,
+    "links": [
+      {
+        "title": "Azure Service Bus documentation",
+        "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/"
+      },
+      {
+        "title": "Service Bus Java SDK reference",
+        "url": "https://docs.microsoft.com/en-us/java/api/overview/azure/servicebus"
+      },
+      {
+        "title": "Migrating from JMS to Azure Service Bus",
+        "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/migrate-jms-broker-to-servicebus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect JMS Resource injection in application code",
+    "effort": 4,
+    "links": [
+      {
+        "title": "Azure Service Bus SDK for Java",
+        "url": "https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/servicebus"
+      },
+      {
+        "title": "Azure Service Bus Java integration",
+        "url": "https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-service-bus"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect Message-Driven Bean implementations",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Service Bus message processing patterns",
+        "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-queues"
+      },
+      {
+        "title": "Azure Functions Service Bus triggers",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-service-bus"
+      },
+      {
+        "title": "Microservices messaging patterns",
+        "url": "https://docs.microsoft.com/en-us/azure/architecture/microservices/design/interservice-communication"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect JMS resource references in web.xml/ejb-jar.xml",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Service Bus Java configuration",
+        "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-queues"
+      },
+      {
+        "title": "Environment variable configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/app-service/configure-common#configure-app-settings"
+      },
+      {
+        "title": "Azure Key Vault configuration",
+        "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect JMS JNDI lookups in code",
+    "effort": 4,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect JMS API usage in code",
+    "effort": 4,
+    "links": [
+      {
+        "title": "Azure Service Bus Java SDK documentation",
+        "url": "https://docs.microsoft.com/en-us/java/api/overview/azure/servicebus"
+      },
+      {
+        "title": "Service Bus messaging patterns",
+        "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview"
+      },
+      {
+        "title": "Event Hubs vs Service Bus comparison",
+        "url": "https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-compare-services"
+      },
+      {
+        "title": "Azure messaging services decision tree",
+        "url": "https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/messaging"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Server Logging Configurations",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Monitor for containers",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview"
+      },
+      {
+        "title": "Application Insights Java agent",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent"
+      },
+      {
+        "title": "OpenLiberty logging configuration",
+        "url": "https://openliberty.io/docs/latest/log-trace-configuration.html"
+      },
+      {
+        "title": "Container logging best practices",
+        "url": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-log-analytics"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "domain": "azure-readiness",
+    "category": "openliberty-migration",
+    "description": "Detect OpenLiberty Log File Location Configurations",
+    "effort": 2,
+    "links": [
+      {
+        "title": "Azure Monitor for containers",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview"
+      },
+      {
+        "title": "Application Insights Java agent",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-in-process-agent"
+      },
+      {
+        "title": "OpenLiberty logging configuration",
+        "url": "https://openliberty.io/docs/latest/log-trace-configuration.html"
+      },
+      {
+        "title": "Container logging best practices",
+        "url": "https://learn.microsoft.com/en-us/azure/container-instances/container-instances-log-analytics"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Ehcache embedded library",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Caching guidance",
+        "url": "https://learn.microsoft.com/azure/architecture/best-practices/caching"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Coherence embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Apache Commons JCS embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Dynacache embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Hazelcast embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Apache Ignite embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Infinispan embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - JBoss Cache embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - JCache embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Memcached client embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Oscache embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - ShiftOne (Java Object Cache) embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - SwarmCache embedded library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "embedded-cache-management",
+    "description": "Caching - Spring Boot Cache library",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "azure-readiness",
+    "category": "cache-service-migration",
+    "description": "Caching - Redis Cache library",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Caching guidance",
+        "url": "https://learn.microsoft.com/azure/architecture/best-practices/caching"
+      },
+      {
+        "title": "Connect Azure Cache for Redis to your application in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/services"
+      },
+      {
+        "title": "Create a service connection in Azure Container Apps from the Azure portal",
+        "url": "https://learn.microsoft.com/en-us/azure/service-connector/quickstart-portal-container-apps"
+      },
+      {
+        "title": "Redis Cache found in the application",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#identify-external-caches"
+      },
+      {
+        "title": "Spring Data Redis",
+        "url": "https://spring.io/projects/spring-data-redis/"
+      },
+      {
+        "title": "Azure Spring Cloud Starter Cache",
+        "url": "https://search.maven.org/artifact/com.azure.spring/azure-spring-cloud-starter-cache"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "CORBA",
+    "effort": 5,
+    "links": [],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "jakartaee-to-azure",
+    "description": "Java Remote Method Invocation (RMI) service",
+    "effort": 7,
+    "links": [
+      {
+        "title": "Twelve-factor app - Backing services",
+        "url": "https://12factor.net/backing-services"
+      },
+      {
+        "title": "Azure SignalR Service",
+        "url": "https://learn.microsoft.com/azure/azure-signalr/signalr-overview"
+      },
+      {
+        "title": "Azure Service Bus",
+        "url": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview"
+      },
+      {
+        "title": "Azure Event Hubs",
+        "url": "https://docs.microsoft.com/azure/event-hubs/event-hubs-about"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "jakartaee-to-azure",
+    "description": "Java Remote Method Invocation (RMI) API",
+    "effort": 7,
+    "links": [],
+    "criticality": ""
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "jakartaee-to-azure",
+    "description": "Java API for XML-based RPC (JAX-RPC)",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JAX-RPC not supported in JBoss EAP 7",
+        "url": "https://access.redhat.com/solutions/4030521"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "jakartaee-to-azure",
+    "description": "Resource adapter descriptor (ra.xml)",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Resource adapter compatibility with JBoss EAP",
+        "url": "https://access.redhat.com/solutions/2476751"
+      },
+      {
+        "title": "Red Hat JBoss EAP 7 documentation - Deploying a Generic JMS Resource Adapter",
+        "url": "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html-single/configuring_messaging/index#deploy_configure_generic_jms_resource_adapter"
+      }
+    ],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "java-native-code",
+    "description": "Java native libraries (JNI, JNA)",
+    "effort": 7,
+    "links": [
+      {
+        "title": "Advanced example for containers",
+        "url": "https://docs.microsoft.com/en-us/visualstudio/install/advanced-build-tools-container?view=vs-2019"
+      },
+      {
+        "title": "how to register com components inside docker as regsvr32 command",
+        "url": "https://stackoverflow.com/questions/54502335/how-to-register-com-components-inside-docker-as-regsvr32-command-executes-succes"
+      },
+      {
+        "title": "How to containerize the .NET Framework web apps with Windows Containers and Docker",
+        "url": "https://github.com/dotnet-architecture/eShopModernizing/wiki/02.-How-to-containerize-the-.NET-Framework-web-apps-with-Windows-Containers-and-Docker"
+      },
+      {
+        "title": "Windows Application 32 bit COM dll registration",
+        "url": "https://forums.docker.com/t/windows-application-32-bit-com-dll-registration/47205/8"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "java-native-code",
+    "description": "Java Native Processes",
+    "effort": 7,
+    "links": [
+      {
+        "title": "Advanced example for containers",
+        "url": "https://docs.microsoft.com/en-us/visualstudio/install/advanced-build-tools-container?view=vs-2019"
+      },
+      {
+        "title": "how to register com components inside docker as regsvr32 command",
+        "url": "https://stackoverflow.com/questions/54502335/how-to-register-com-components-inside-docker-as-regsvr32-command-executes-succes"
+      },
+      {
+        "title": "How to containerize the .NET Framework web apps with Windows Containers and Docker",
+        "url": "https://github.com/dotnet-architecture/eShopModernizing/wiki/02.-How-to-containerize-the-.NET-Framework-web-apps-with-Windows-Containers-and-Docker"
+      },
+      {
+        "title": "Windows Application 32 bit COM dll registration",
+        "url": "https://forums.docker.com/t/windows-application-32-bit-com-dll-registration/47205/8"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "file-system-management",
+    "description": "File system - Java IO",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage"
+      },
+      {
+        "title": "Create an Azure Files volume mount in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts-azure-files"
+      },
+      {
+        "title": "Use storage mounts in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts"
+      },
+      {
+        "title": "Azure Monitor Logs overview",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/data-platform-logs"
+      },
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Azure App Configuration documentation",
+        "url": "https://learn.microsoft.com/azure/azure-app-configuration"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "file-system-management",
+    "description": "File system - java.net.URL/URI",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage"
+      },
+      {
+        "title": "Create an Azure Files volume mount in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts-azure-files"
+      },
+      {
+        "title": "Use storage mounts in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts"
+      },
+      {
+        "title": "Azure Monitor Logs overview",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/data-platform-logs"
+      },
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Azure App Configuration documentation",
+        "url": "https://learn.microsoft.com/azure/azure-app-configuration"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "file-system-management",
+    "description": "File system - 'file://' scheme",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Storage documentation",
+        "url": "https://learn.microsoft.com/azure/storage"
+      },
+      {
+        "title": "Create an Azure Files volume mount in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts-azure-files"
+      },
+      {
+        "title": "Use storage mounts in Azure Container Apps",
+        "url": "https://learn.microsoft.com/azure/container-apps/storage-mounts"
+      },
+      {
+        "title": "Azure Monitor Logs overview",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/data-platform-logs"
+      },
+      {
+        "title": "Azure Cache for Redis documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Azure App Configuration documentation",
+        "url": "https://learn.microsoft.com/azure/azure-app-configuration"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "file-system-management",
+    "description": "File system - Java NIO",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "file-system-management",
+    "description": "Apache Commons I/O",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "local-resource-access",
+    "description": "Local HTTP Calls",
+    "effort": 7,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "local-resource-access",
+    "description": "Local JDBC Calls",
+    "effort": 7,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "local-resource-access",
+    "description": "Local WebSocket Calls",
+    "effort": 7,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Avoid File System Logging in Java Code",
+    "effort": 1,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Logging to Socket Handler",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Avoid File System Logging in Configuration",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Azure Monitor Logs overview",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/data-platform-logs"
+      },
+      {
+        "title": "Log queries in Azure Monitor",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/log-query-overview"
+      },
+      {
+        "title": "Enable diagnostics logging for apps in Azure App Service",
+        "url": "https://learn.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs"
+      },
+      {
+        "title": "Log Analytics tutorial",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-tutorial"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Embedded library - Logstash",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Ensure console logging and configure diagnostic settings",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#ensure-console-logging-and-configure-diagnostic-settings"
+      },
+      {
+        "title": "Azure Event Hub",
+        "url": "https://learn.microsoft.com/azure/event-hubs/event-hubs-about"
+      },
+      {
+        "title": "Logstash EventHub plugin",
+        "url": "https://github.com/logstash-plugins/logstash-input-azure_event_hubs"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Embedded library - Splunk",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Ensure console logging and configure diagnostic settings",
+        "url": "https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#ensure-console-logging-and-configure-diagnostic-settings"
+      },
+      {
+        "title": "Azure Blob Storage",
+        "url": "https://learn.microsoft.com/azure/storage/blobs/"
+      },
+      {
+        "title": "Splunk Add-on for Microsoft Cloud Services",
+        "url": "https://splunkbase.splunk.com/app/3757"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "logging-management",
+    "description": "Embedded framework - Zipkin",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Azure Monitor",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/"
+      },
+      {
+        "title": "Observability in Azure Container Apps",
+        "url": "https://learn.microsoft.com/en-us/azure/container-apps/observability"
+      },
+      {
+        "title": "Distributed Tracing",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/app/distributed-trace-data"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "Java Mail API",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Communication Services documentation",
+        "url": "https://learn.microsoft.com/azure/communication-services"
+      },
+      {
+        "title": "Quickstart: How to send an email using Azure Communication Service",
+        "url": "https://learn.microsoft.com/azure/communication-services/quickstarts/email/send-email"
+      },
+      {
+        "title": "Troubleshoot outbound SMTP connectivity problems in Azure",
+        "url": "https://learn.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "session-management",
+    "description": "HTTP session replication (distributable web.xml)",
+    "effort": 3,
+    "links": [
+      {
+        "title": "JBoss EAP: Clustering in Web Applications",
+        "url": "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html/development_guide/clustering_in_web_applications"
+      },
+      {
+        "title": "Twelve-Factor App: Processes",
+        "url": "https://12factor.net/processes"
+      },
+      {
+        "title": "Getting Started with JBoss EAP for OpenShift Container Platform: Clustering",
+        "url": "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html-single/getting_started_with_jboss_eap_for_openshift_container_platform/index#reference_clustering"
+      },
+      {
+        "title": "Twelve-Factor App: Backing services",
+        "url": "https://12factor.net/backing-services"
+      },
+      {
+        "title": "Running Data Grid on OpenShift",
+        "url": "https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.0/html-single/running_data_grid_on_openshift/index"
+      },
+      {
+        "title": "JBoss EAP:  Externalize HTTP Sessions to Red Hat Data Grid",
+        "url": "https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html-single/configuration_guide/index#jdg_externalize_http_sessions"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "session-management",
+    "description": "HTTP Session data storage",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Cache for Redis Documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Quickstart: Use Azure Cache for Redis in Java",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-java-get-started"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "Socket communication",
+    "effort": 5,
+    "links": [],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "Java NIO channel",
+    "effort": 5,
+    "links": [],
+    "criticality": "optional"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "java-client-app",
+    "description": "Java Swing usage",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Container Registry documentation",
+        "url": "https://learn.microsoft.com/azure/container-registry"
+      },
+      {
+        "title": "Azure Container Instances documentation",
+        "url": "https://learn.microsoft.com/azure/container-instances"
+      },
+      {
+        "title": "Azure Container Apps documentation",
+        "url": "https://learn.microsoft.com/azure/container-apps/overview"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "java-client-app",
+    "description": "JavaFX usage",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Azure Container Registry documentation",
+        "url": "https://learn.microsoft.com/azure/container-registry"
+      },
+      {
+        "title": "Azure Container Instances documentation",
+        "url": "https://learn.microsoft.com/azure/container-instances"
+      },
+      {
+        "title": "Azure Container Apps documentation",
+        "url": "https://learn.microsoft.com/azure/container-apps/overview"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "session-management",
+    "description": "Distributed Environments found",
+    "effort": 5,
+    "links": [
+      {
+        "title": "Azure Cache for Redis Documentation",
+        "url": "https://learn.microsoft.com/azure/azure-cache-for-redis"
+      },
+      {
+        "title": "Custom configuration settings for App Service Environments",
+        "url": "https://learn.microsoft.com/azure/app-service/environment/app-service-app-service-environment-custom-settings"
+      },
+      {
+        "title": "Identify session persistence mechanism",
+        "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-tomcat-to-azure-container-apps#identify-session-persistence-mechanism"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "configuration-management",
+    "description": "Using other configuration files than Web configuration",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Docker ARG and ENV - a Complete Guide",
+        "url": "https://stackoverflow.com/questions/10961862/its-possible-to-have-one-web-config-specific-to-windows-azure"
+      },
+      {
+        "title": "Azure App Service - Configuration",
+        "url": "https://docs.docker.com/engine/swarm/configs/"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "remote-communication",
+    "description": "Use of unsecured network protocols or URI libraries",
+    "effort": 3,
+    "links": [
+      {
+        "title": "Why HTTPS matters",
+        "url": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+      },
+      {
+        "title": "SSH File Transfer Protocol (SFTP): Get SFTP client & server",
+        "url": "https://www.ssh.com/ssh/sftp/"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "auth-migration",
+    "description": "Using Webform Authentication",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "cloud-readiness"
+    ],
+    "domain": "cloud-native",
+    "category": "configuration-management",
+    "description": "Using Windows registry to store Application Settings",
+    "effort": 3,
+    "links": [],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of com.sun.awt.AWTUtilities Class",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of com.sun.awt.AWTUtilities Class",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8200149"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "JEP 320 Remove the Java EE and CORBA Modules",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JEP 320 Remove the Java EE and CORBA Modules",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8190378"
+      },
+      {
+        "title": "GlassFish implementation of CORBA and RMI-IIOP",
+        "url": "https://javaee.github.io/glassfish-corba/index.html"
+      },
+      {
+        "title": "Removed Java EE modules",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8190378"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The java.activation (JAF) module has been removed from OpenJDK 11",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removed Java EE modules",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8190378"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The java.annotation (Common Annotations) module has been removed from OpenJDK 11",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removed Java EE modules",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8190378"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "JEP 336 Deprecate the Pack200 Tools and API",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JEP 336 Deprecate the Pack200 Tools and API",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8199871"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The `java.awt.Font.getPeer()` and `java.awt.Component.getPeer()` methods have been removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "java.awt.peer Not Accessible",
+        "url": "https://docs.oracle.com/en/java/javase/11/migrate/index.html#JSMIG-GUID-0C350BAB-F2C8-409E-AD3E-63831C684A55"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of sun.nio.ch.disableSystemWideOverlappingFileLockCheck Property",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of sun.nio.ch.disableSystemWideOverlappingFileLockCheck Property",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8196535"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of sun.locale.formatasdefault Property",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of sun.locale.formatasdefault Property",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8198385"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Certain methods under `java.lang.SecurityManager` tied to the AWT stack have been removed in Java 11",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Java 11 SecurityManager api",
+        "url": "https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/SecurityManager.html"
+      },
+      {
+        "title": "Java 11 AWTPermission api",
+        "url": "https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/AWTPermission.html"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "SecurityManager method java.lang.SecurityManager.checkMemberAccess has been removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Java 11 SecurityManager api",
+        "url": "https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/SecurityManager.html"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Deprecate Stream-Based GSSContext Methods",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Deprecate Stream-Based GSSContext Methods",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8072996"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of Thread.destroy() and Thread.stop(Throwable) Methods",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of Thread.destroy() and Thread.stop(Throwable) Methods",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8204243"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of sun.misc.Unsafe.defineClass",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of sun.misc.Unsafe.defineClass",
+        "url": "https://www.oracle.com/java/technologies/javase/11-relnote-issues.html#JDK-8193033"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Methods in `sun.misc.Unsafe` have been removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JDK-8054494",
+        "url": "https://bugs.openjdk.org/browse/JDK-8054494"
+      },
+      {
+        "title": "Test changes for JDK-8054494",
+        "url": "https://github.com/openjdk/jdk/commit/083d9a2b6145a422bad64423675660c94bb32958#diff-12d7d73c9a167ec9451fe5e53373574adc02d9179cab3465e096a07d1aa79fc7"
+      },
+      {
+        "title": "Variable Handles",
+        "url": "https://openjdk.java.net/jeps/193"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The `sun.misc.BASE64` class has been removed.",
+    "effort": 1,
+    "links": [
+      {
+        "title": "java.util.Base64 - Javadoc",
+        "url": "https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Base64.html"
+      },
+      {
+        "title": "JDK-8006182",
+        "url": "https://bugs.openjdk.org/browse/JDK-8006182"
+      },
+      {
+        "title": "Code example",
+        "url": "https://github.com/openjdk/jdk/commit/ec9e303630158405d0faaabb74f466f0a376c1fc"
+      },
+      {
+        "title": "OpenJDK - Original enhancement request",
+        "url": "https://bugs.openjdk.java.net/browse/JDK-8006182"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk11+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The `runFinalizersOnExit` methods have been removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JDK 11 removed APIs",
+        "url": "https://docs.oracle.com/en/java/javase/11/migrate/index.html#JSMIG-GUID-4B613B7E-B150-4D0A-835C-2393C60BE1F8"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Deprecate the Applet API for Removal",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Deprecate the Applet API for Removal",
+        "url": "https://www.oracle.com/java/technologies/javase/17all-relnotes.html#JDK-8256145"
+      },
+      {
+        "title": "JEP 398 - Deprecate the Applet API for Removal",
+        "url": "https://openjdk.org/jeps/398"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The Java Security Manager class has been deprecated.",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "References to the Java Security Manager API have been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The methods 'getSecurityManager' and 'setSecurityManager' under java.lang.System have been deprecated since Java 17.",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "java.lang.Thread.checkAccess method has been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "java.lang.ThreadGroup.checkAccess method has been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "java.util.logging.LogManager.checkAccess method has been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Methods under java.util.concurrent.Executors have been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The 'javax.security.auth.Subject' method has been deprecated",
+    "effort": 5,
+    "links": [
+      {
+        "title": "JEP 411: Deprecate the Security Manager for Removal",
+        "url": "https://openjdk.org/jeps/411"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Deprecate the Socket Implementation Factory Mechanism",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Deprecate the Socket Implementation Factory Mechanism",
+        "url": "https://www.oracle.com/java/technologies/javase/17all-relnotes.html#JDK-8235139"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of sun.misc.Unsafe::defineAnonymousClass",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of sun.misc.Unsafe::defineAnonymousClass",
+        "url": "https://www.oracle.com/java/technologies/javase/17all-relnotes.html#JDK-8243287"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The Lombok version is incompatible with Open JDK 17",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Upgrade Lombok version to support Java 17",
+        "url": "https://github.com/projectlombok/lombok/issues/2898"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The java.rmi.activation detected",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JEP 407: Remove RMI Activation",
+        "url": "https://openjdk.org/jeps/407"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk17+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The jdk.nashorn.api.scripting and jdk.nashorn.api.tree packages have been removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JEP 372: Remove RMI Activation",
+        "url": "https://openjdk.org/jeps/372"
+      },
+      {
+        "title": "openjdk/nashorn",
+        "url": "https://github.com/openjdk/nashorn"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Dynamic loading of agents will be removed at a later JDK release",
+    "effort": 1,
+    "links": [
+      {
+        "title": "JEP 451: Prepare to Disallow the Dynamic Loading of Agents",
+        "url": "https://openjdk.org/jeps/451"
+      },
+      {
+        "title": "Issue tracker: Implementation of Prepare to Restrict The Dynamic Loading of Agents",
+        "url": "https://bugs.openjdk.org/browse/JDK-8307479"
+      }
+    ],
+    "criticality": "potential"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "java.io.File's Canonical Path Cache Is Removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "java.io.File's Canonical Path Cache Is Removed",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8300977"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "com.sun.nio.file.SensitivityWatchEventModifier Is Deprecated",
+    "effort": 1,
+    "links": [
+      {
+        "title": "com.sun.nio.file.SensitivityWatchEventModifier Is Deprecated",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8303175"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "javax.management.remote.rmi.RMIIIOPServerImpl Is Removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "javax.management.remote.rmi.RMIIIOPServerImpl Is Removed",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8307244"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Deprecate JMX Subject Delegation and the JMXConnector.getMBeanServerConnection(Subject) Method for Removal",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Deprecate JMX Subject Delegation and the JMXConnector.getMBeanServerConnection(Subject) Method for Removal",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8298966"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of the java.compiler System Property",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of the java.compiler System Property",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8041676"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "The java.lang.Compiler Class Has Been Removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "The java.lang.Compiler Class Has Been Removed",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8205129"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "Removal of ContentSigner APIs and jarsigner -altsigner and -altsignerpath Options",
+    "effort": 1,
+    "links": [
+      {
+        "title": "Removal of ContentSigner APIs and jarsigner -altsigner and -altsignerpath Options",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8303410"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "openjdk21+"
+    ],
+    "domain": "java-modernization",
+    "category": "deprecated-apis",
+    "description": "ThreadGroup.allowThreadSuspension Is Removed",
+    "effort": 1,
+    "links": [
+      {
+        "title": "ThreadGroup.allowThreadSuspension Is Removed",
+        "url": "https://www.oracle.com/java/technologies/javase/21-relnote-issues.html#JDK-8297295"
+      }
+    ],
+    "criticality": "mandatory"
+  },
+  {
+    "targets": [
+      "linux"
+    ],
+    "domain": "cloud-native",
+    "category": "os-compatibility",
+    "description": "Dynamic-Link Library (DLL)",
+    "effort": 5,
+    "links": [],
+    "criticality": "mandatory"
+  }
+]
