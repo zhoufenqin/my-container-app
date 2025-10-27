@@ -5,10 +5,18 @@
 **Target Azure Services**: Azure Kubernetes Service, Azure App Service, Azure Container Apps
 
 ## Overall Statistics
-- **Total Applications**: 2
-- **Mandatory Issues**: 1186
-- **Potential Issues**: 46
-- **Optional Issues**: 1196
+
+**Total Applications**: 2
+
+**airsonic**:
+- Mandatory: 593
+- Potential: 23
+- Optional: 598
+
+**airsonic-main**:
+- Mandatory: 593
+- Potential: 23
+- Optional: 598
 
 > **Severity Levels Explained:**
 > - **Mandatory**: The issue has to be resolved for the migration to be successful.
@@ -111,5 +119,6 @@
 ## Next Steps
 
 For comprehensive migration guidance and best practices, visit:
-   - [GitHub Copilot App Modernization](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java)
+- [View Full Assessment Report](https://github.com/zhoufenqin/my-container-app/blob/assessment-reports/.github/appmod/appcat/issue-35-report.json)
+- [GitHub Copilot App Modernization](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java)
 
